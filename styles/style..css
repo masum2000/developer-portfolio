@@ -1,6 +1,7 @@
 *{  
-    margin: auto;
-    font-family: 'Open Sans', sans-serif;
+    Margin : 0;
+    padding : 0;
+ font-family: 'Open Sans', sans-serif;
 }
 .btn-primary{
     color: #FFFFFF;
@@ -19,8 +20,15 @@
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
     background-position: bottom right, left;
+    background-size: 600px 350px, 90px 500px ;
    
    
+}
+.pic{
+    align-items: center;
+    margin-left: 680px;
+    padding-bottom: 0;
+    margin-top: 60px;
 }
 /* header and navigation styles */
 nav{
